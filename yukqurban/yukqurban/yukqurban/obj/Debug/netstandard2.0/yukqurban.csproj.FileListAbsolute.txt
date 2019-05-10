@@ -1,0 +1,12 @@
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\bin\Debug\netstandard2.0\yukqurban.deps.json
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\bin\Debug\netstandard2.0\yukqurban.dll
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\bin\Debug\netstandard2.0\yukqurban.pdb
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.csprojAssemblyReference.cache
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.csproj.CoreCompileInputs.cache
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.AssemblyInfoInputs.cache
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.AssemblyInfo.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\XamlC.stamp
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.dll
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.pdb
