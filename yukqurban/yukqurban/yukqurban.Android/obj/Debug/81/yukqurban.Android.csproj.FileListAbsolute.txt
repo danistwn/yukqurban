@@ -102,4 +102,11 @@ C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\and
 C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\android\assets\yukqurban.Android.pdb
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\res\drawable\bglogin.jpg
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\res\drawable\ic_action_home.png
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\res\drawable\ic_action_chat.png
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\res\drawable\ic_action_history.png
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\res\drawable\ic_action_account_circle.png
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\bin\Debug\netstandard2.0\yukqurban.dll
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\bin\Debug\yukqurban.dll.mdb
 C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban.Android\obj\Debug\81\linksrc\yukqurban.dll.mdb

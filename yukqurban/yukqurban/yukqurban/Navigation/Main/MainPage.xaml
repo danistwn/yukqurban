@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yukqurban.Navigation.Main.MainPage"
+            xmlns:local="clr-namespace:yukqurban.Navigation.Main"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="{StaticResource MainColor}"
+    BarTextColor="White"
+    android:TabbedPage.BarItemColor="#66FFFFFF"
+    android:TabbedPage.BarSelectedItemColor="White">
+
+    <NavigationPage Title="Home" Icon="ic_action_home.png">
+        <x:Arguments>
+            <local:HomePage/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Cart" Icon="ic_action_chat.png">
+        <x:Arguments>
+            <local:HistoryPage/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="History" Icon="ic_action_history.png">
+        <x:Arguments>
+            <local:HistoryPage/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Account" Icon="ic_action_account_circle.png">
+        <x:Arguments>
+            <local:AccountPage/>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

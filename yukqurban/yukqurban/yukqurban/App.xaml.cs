@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using yukqurban.Navigation.Login;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace yukqurban
@@ -11,7 +12,7 @@ namespace yukqurban
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

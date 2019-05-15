@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yukqurban.Navigation.Login.RegisterPage"
+             xmlns:control="clr-namespace:yukqurban.Controls" BackgroundColor="WhiteSmoke"
+             Title="Daftar">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand">
+
+            <!--<Image Source="bglogin.png" Aspect="AspectFill"/>-->
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Frame Style="{StaticResource frame}" Margin="10">
+                    <StackLayout>
+                        <Label Text="Pendaftaran" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large" Margin="10,10,10,0" TextColor="Black"/>
+                        <control:SeparatorView bgColor="Black" HorizontalOptions="Center" WidthRequest="60" SeparatorHeight="3" Margin="0,0,0,10"/>
+
+                        <control:EntryRounded Placeholder="Nama Lengkap"/>
+                        <control:EntryRounded Placeholder="Email" Keyboard="Email"/>
+                        <control:EntryRounded Placeholder="Password" IsPassword="True"/>
+
+                        <Label Text="Semua field harus diisi*"/>
+                    </StackLayout>
+                </Frame>
+
+                <Grid Margin="10,0,10,10">
+                    <Button Grid.Column="1" Style="{StaticResource btnMain}" Text="Submit"/>
+                </Grid>
+            </StackLayout>
+
+            <Label HorizontalOptions="Center" VerticalOptions="EndAndExpand" FontAttributes="Bold" Margin="10">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Sudah Punya Akun? " TextColor="Black"/>
+                        <Span Text="Login" TextColor="Blue"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

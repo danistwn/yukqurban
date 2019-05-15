@@ -10,3 +10,12 @@ C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0
 C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\XamlC.stamp
 C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.dll
 C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\yukqurban.pdb
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Navigation\Login\LoginPage.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Theme\Theme1.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Controls\SeparatorView.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Navigation\Login\RegisterPage.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Navigation\Login\ForgotPasswordPage.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Navigation\Main\AccountPage.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Navigation\Main\HistoryPage.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Navigation\Main\HomePage.xaml.g.cs
+C:\dani\Project\yukqurban\yukqurban\yukqurban\yukqurban\obj\Debug\netstandard2.0\Navigation\Main\MainPage.xaml.g.cs

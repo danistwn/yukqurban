@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yukqurban.Navigation.Login.LoginPage"
+             xmlns:control="clr-namespace:yukqurban.Controls"
+             NavigationPage.HasNavigationBar="False" BackgroundColor="WhiteSmoke">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand">
+
+            <!--<Image Source="bglogin.png" Aspect="AspectFill"/>-->
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Frame Style="{StaticResource frame}" Margin="10">
+                    <StackLayout>
+                        <Label Text="Login" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large" Margin="10,10,10,0" TextColor="Black"/>
+                        <control:SeparatorView bgColor="Black" HorizontalOptions="Center" WidthRequest="30" SeparatorHeight="3" Margin="0,0,0,10"/>
+
+                        <control:EntryRounded Placeholder="Email"/>
+                        <control:EntryRounded Placeholder="Password" IsPassword="True"/>
+
+                        <Label Text="Lupa Password?" TextColor="Blue" HorizontalOptions="End" Margin="10" FontAttributes="Bold">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                    </StackLayout>
+                </Frame>
+
+                <Grid Margin="10,0,10,10">
+                    <Button Grid.Column="1" Style="{StaticResource btnMain}" Text="Login" Command="{Binding LoginCommand}"/>
+                </Grid>
+            </StackLayout>
+
+            <Label HorizontalOptions="Center" VerticalOptions="EndAndExpand" FontAttributes="Bold" Margin="10">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Pengguna Baru? " TextColor="Black"/>
+                        <Span Text="Daftar" TextColor="Blue"/>
+                    </FormattedString>
+                </Label.FormattedText>
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding RegisterCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

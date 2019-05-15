@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="yukqurban.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="yukqurban" android:theme="@style/MainTheme" android:name="md57fc4f60c2390e3e05ddf31486654d60b.MainActivity">
+    <activity android:configChanges="layoutDirection|locale|orientation|screenSize" android:icon="@mipmap/icon" android:label="Yuk Qurban" android:theme="@style/MainTheme" android:name="md57fc4f60c2390e3e05ddf31486654d60b.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
